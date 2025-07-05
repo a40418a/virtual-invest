@@ -1,4 +1,161 @@
-# 주식 가상 매매 사이트 (금융시장 플랫폼)
+<h1 align="center">주식 가상 매매사이트</h1>
+
+<p align="center">
+실제 주식 거래를 학습할 수 있는 가상 투자 웹 애플리케이션입니다.<br/>
+계좌 생성부터 매수·매도, 포트폴리오 관리까지 통합적으로 제공하는 풀스택 환경으로 개발되었습니다.
+</p>
+
+---
+
+## ✨ Features
+
+- 회원 가입 및 로그인
+- 이메일 기반 아이디/비밀번호 찾기
+- 사이트 활용 목적 안내 튜토리얼 제공
+- 전일 대비 변동량 TOP3 차트 제공
+- 관리자·사용자 권한 분리 게시판
+- 초기 가상 자금(1,000,000원) 할당
+- 주식 검색, 실시간 시세 및 과거 데이터 조회
+- 주식 매수·매도 및 거래 단위 지정
+- 마이페이지에서 자산 현황과 수익률 확인
+
+---
+
+## 📹 Screenshots
+
+<p align="center">
+  <img src="https://your-screenshot-url" width="600"/>
+</p>
+
+---
+
+## 🛠️ Skills & Tech Stack
+
+### 💻 Frontend
+
+| 구분       | 내용                                                                                 |
+|-----------|--------------------------------------------------------------------------------------|
+| **프레임워크** | React                                                                             |
+| **환경**     | Vite (번들러)                                                                      |
+| **언어**     | JavaScript (ES6), JSX                                                              |
+
+**🌐 프론트 서버 구동**
+```bash
+cd FrontEnd
+yarn          
+yarn dev      
+```
+
+---
+
+## 🖥️ Backend
+
+| 구분       | 내용                                                                           |
+|-----------|------------------------------------------------------------------------------|
+| **런타임**   | Node.js                                                                     |
+| **프레임워크** | Express.js                                                                  |
+| **언어**     | JavaScript                                                                  |
+
+**🌐 백엔드 서버 구동**
+```bash
+cd BackEnd
+npm install   
+npm start     
+```
+
+---
+
+## 🗄️ Database
+
+| 구분     | 내용                                                                               |
+|---------|----------------------------------------------------------------------------------|
+| **DBMS** | MySQL                                                                            |관리                           |
+
+**🌐 DB 초기화**
+```bash
+npx sequelize db:create
+npx sequelize-cli db:migrate
+```
+
+---
+
+# 👫🏻 Contributors
+
+| 이름       | 역할                |
+|------------|-------------------|
+| 최승아     | 팀장 / 프론트엔드 개발 |
+| 신윤석     | 프론트엔드 개발         |
+| 고동우     | 백엔드 개발         |
+| 한은진     | 백엔드 개발     |
+
+---
+
+## 📦 Main Packages
+
+### 🖥️ Frontend Packages
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
+
+
+---
+
+### 🖥️ Backend Packages
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Nodemailer](https://img.shields.io/badge/Nodemailer-3C3C3C?style=for-the-badge&logo=maildotru&logoColor=white)
+
+
+---
+
+## 📂 Directory Structure
+
+```
+주식 가상 매매사이트/
+ ├── BackEnd/
+ │   ├── bin/
+ │   ├── config/
+ │   ├── migrations/
+ │   ├── models/
+ │   ├── public/
+ │   │   └── stylesheets/
+ │   ├── routes/
+ │   └── views/
+ │
+ └── FrontEnd/
+     ├── public/
+     ├── src/
+     │   ├── assets/
+     │   │   └── images/
+     │   ├── components/
+     │   │   ├── chart/
+     │   │   └── topbar/
+     │   ├── data/
+     │   │   └── stocks/
+     │   ├── pages/
+     │   │   ├── common/
+     │   │   │   ├── find/
+     │   │   │   ├── login/
+     │   │   │   └── signup/
+     │   │   ├── manager/
+     │   │   │   ├── account/
+     │   │   │   └── board/
+     │   │   └── user/
+     │   │       ├── board/
+     │   │       ├── investment/
+     │   │       ├── main/
+     │   │       ├── mypage/
+     │   │       ├── search/
+     │   │       └── stockInfo/
+     └── 기타 설정 파일
+```
+
+
+<!-- # 주식 가상 매매 사이트 (금융시장 플랫폼)
 
 ## 소개
 주식 가상 매매 사이트는 사용자가 가상 자금을 사용하여 주식을 사고 팔 수 있는 웹 애플리케이션입니다. 이 프로젝트는 주식 거래에 대한 이해를 높이고, 실제 거래에 앞서 연습할 수 있는 환경을 제공하기 위해 개발되었습니다.
@@ -91,4 +248,4 @@
 
 2020202033 고동우 (DwKwCs)
 
-2021202022 한은진 (hanejj)
+2021202022 한은진 (hanejj) -->
