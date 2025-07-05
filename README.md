@@ -23,6 +23,8 @@
 
 ## 📹 Screenshots
 
+🔗 [시연영상 바로가기](https://www.youtube.com/watch?v=ZWegyUl0zI4)
+
 <p align="center">
 
   ![주식가상매매사이트](https://github.com/user-attachments/assets/91ddf6b5-5d00-4612-a830-8e718306a105)
