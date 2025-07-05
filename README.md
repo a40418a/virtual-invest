@@ -24,7 +24,9 @@
 ## 📹 Screenshots
 
 <p align="center">
-  <img src="https://your-screenshot-url" width="600"/>
+
+  ![주식가상매매사이트](https://github.com/user-attachments/assets/91ddf6b5-5d00-4612-a830-8e718306a105)
+
 </p>
 
 ---
